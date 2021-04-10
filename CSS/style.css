@@ -221,7 +221,16 @@ body {
   color: black;
 }
 
+.main34 {
+  background-color: #172830;
+}
+
 .main34 .container {
   text-align: center;
+}
+
+.main34 .container h1 {
+  font-size: 36px;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
