@@ -36,12 +36,14 @@ body {
                 display: flex;
                 a {
                     margin: 8px;
+                    text-transform: uppercase;
                     button {
                         padding: 13px 20px;
                         margin-left: 8px;
                         background-color: #7cc326;
                         border: none;
                         color: white;
+                        text-transform: uppercase;
                     }
                     button:hover {
                         background-color: white;
@@ -52,3 +54,29 @@ body {
         }
     }
 }
+
+.main {
+    background-color: #172830;
+    img {
+        position: relative;
+    }
+    .h {
+        position: absolute;
+        color: white;
+        top: 35%;
+        left: 60%;
+        font-size: 30px;
+        width: 401px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .p {
+        position: absolute;
+        color: white;
+        top: 50%;
+        left: 60%;
+        width: 559px;
+    }
+}
+
+.main2 {}

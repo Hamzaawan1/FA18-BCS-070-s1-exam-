@@ -53,6 +53,7 @@ body {
 
 .nav .container .box ul a {
   margin: 8px;
+  text-transform: uppercase;
 }
 
 .nav .container .box ul a button {
@@ -61,10 +62,38 @@ body {
   background-color: #7cc326;
   border: none;
   color: white;
+  text-transform: uppercase;
 }
 
 .nav .container .box ul a button:hover {
   background-color: white;
   color: #7cc326;
+}
+
+.main {
+  background-color: #172830;
+}
+
+.main img {
+  position: relative;
+}
+
+.main .h {
+  position: absolute;
+  color: white;
+  top: 35%;
+  left: 60%;
+  font-size: 30px;
+  width: 401px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.main .p {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 60%;
+  width: 559px;
 }
 /*# sourceMappingURL=style.css.map */
