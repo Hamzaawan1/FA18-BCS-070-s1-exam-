@@ -22,3 +22,33 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
+
+.nav {
+    background-color: #172830;
+    .container {
+        display: flex;
+        justify-content: space-around;
+        .box {
+            img {
+                display: flex;
+            }
+            ul {
+                display: flex;
+                a {
+                    margin: 8px;
+                    button {
+                        padding: 13px 20px;
+                        margin-left: 8px;
+                        background-color: #7cc326;
+                        border: none;
+                        color: white;
+                    }
+                    button:hover {
+                        background-color: white;
+                        color: #7cc326;
+                    }
+                }
+            }
+        }
+    }
+}

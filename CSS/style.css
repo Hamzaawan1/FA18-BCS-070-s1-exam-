@@ -26,4 +26,45 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
+
+.nav {
+  background-color: #172830;
+}
+
+.nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nav .container .box img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav .container .box ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav .container .box ul a {
+  margin: 8px;
+}
+
+.nav .container .box ul a button {
+  padding: 13px 20px;
+  margin-left: 8px;
+  background-color: #7cc326;
+  border: none;
+  color: white;
+}
+
+.nav .container .box ul a button:hover {
+  background-color: white;
+  color: #7cc326;
+}
 /*# sourceMappingURL=style.css.map */
